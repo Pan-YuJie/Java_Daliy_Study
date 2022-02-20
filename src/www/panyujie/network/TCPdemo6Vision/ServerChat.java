@@ -105,7 +105,7 @@ class ServerReader extends Thread {
 			//    内容--
 			StringBuilder msgFinal = new StringBuilder();
 			// 时间  
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss EEE");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:Test EEE");
 			if(flag == 2){
 				msgFinal.append(sendName).append("  ").append(sdf.format(System.currentTimeMillis())).append("\r\n");
 				msgFinal.append("    ").append(newMsg).append("\r\n");
