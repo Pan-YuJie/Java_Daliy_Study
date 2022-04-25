@@ -14,6 +14,8 @@ import java.sql.SQLException;
 public class Test {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
+
+
         //使用反射加载 driver类
         //在加载 driver类时中 DriverManager.registerDriver 在静态代码块中 已经完成了注册 所以不用在注册了
         Class.forName("com.mysql.cj.jdbc.Driver");
