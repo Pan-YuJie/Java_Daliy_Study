@@ -13,6 +13,7 @@ import java.util.Properties;
  * Date: 2022-02-21
  * Time: 16:11
  */
+
 public class Test {
     public static void main(String[] args) throws SQLException {
 
@@ -30,7 +31,6 @@ public class Test {
         //"jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong"
 
         //将用户名密码封装到Properties 对象
-
         //user 和 password 别写错
         Properties properties =new Properties();
         properties.setProperty("user","root");
